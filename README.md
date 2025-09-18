@@ -21,7 +21,7 @@ It simulates actual library operations like managing members, handling books, pr
 - Generate useful reports (overdue books, most borrowed books)  
 - Only allow deletion if constraints are met (e.g., no borrowed books)  
 
----
+--- 
 
 ## 🚀 Features
 
@@ -37,7 +37,7 @@ It simulates actual library operations like managing members, handling books, pr
 ## 🛠 How to Run
 
 ```yaml
-clone_repo: |
+clone_repo: 
   git clone https://github.com/AnveshAnnepaga/online-library-system.git
   cd online-library-system
 
@@ -46,15 +46,17 @@ create_virtual_environment: |
   On macOS/Linux type: source venv/bin/activate
   On Windows type: venv\Scripts\activate
 
-install_dependencies: |
+install_dependencies: 
   pip install -r requirements.txt
 
-set_env_variables: |
+set_env_variables: 
   Create a .env file in the project root
   Add your Supabase credentials as per .env.example
 
-run_application: |
+run_application: 
   python main.py
+
+🖥 CLI Menu: 
 
 1. Add Member
 2. Update Member
