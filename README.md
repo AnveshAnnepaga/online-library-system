@@ -32,34 +32,29 @@ It simulates actual library operations like managing members, handling books, pr
 - 🗄 **Supabase/Postgres Database** – persistent relational data storage  
 - 🖥 **Command-Line Interface (CLI)** – menu-driven system for easy interaction  
 
-
 ---
 
-# 🛠 How to Run
+## 🛠 How to Run
 
+```yaml
 clone_repo: |
   git clone https://github.com/AnveshAnnepaga/online-library-system.git
   cd online-library-system
 
 create_virtual_environment: |
   python -m venv venv
-  # On macOS/Linux:
-  source venv/bin/activate
-  # On Windows:
-  venv\Scripts\activate
+  On macOS/Linux type: source venv/bin/activate
+  On Windows type: venv\Scripts\activate
 
 install_dependencies: |
   pip install -r requirements.txt
 
 set_env_variables: |
-  # Create a .env file in the project root
-  # Add your Supabase credentials as per .env.example
+  Create a .env file in the project root
+  Add your Supabase credentials as per .env.example
 
 run_application: |
   python main.py
-
-
-🖥 CLI Menu
 
 1. Add Member
 2. Update Member
@@ -74,4 +69,3 @@ run_application: |
 11. Return Book
 12. Overdue Books
 13. Exit
-

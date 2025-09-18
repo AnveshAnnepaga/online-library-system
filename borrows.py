@@ -10,7 +10,7 @@ def borrow_book(member_id: int, book_id: int):
         return
     res = supabase.table("borrow_records").insert({
         "member_id": member_id,
-        "book_id": book_id
+        "book_id":  book_id
     }).execute()
     print("Borrowed:", res.data)
 
