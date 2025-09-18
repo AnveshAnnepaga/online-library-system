@@ -1,8 +1,8 @@
 # 📚 Online Library Management System
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)  
-[![Supabase](https://img.shields.io/badge/Backend-Supabase-green)](https://supabase.com/)  
-[![Postgres](https://img.shields.io/badge/Database-PostgreSQL-blue)](https://www.postgresql.org/)  
+[![Supabase & PostgreSQL](https://img.shields.io/badge/Backend%20%26%20DB-Supabase%2BPostgreSQL-green)](https://supabase.com/)
+ 
 
 ---
 
